@@ -1,0 +1,7 @@
+processes input .txt files and performs matrix addition and multiplication
+
+this is done by creating a linked list where each node in the list holds a tuple holding the 
+location and value in the matrix 
+
+the matrix is described by the sp_tuples data struct which defines the size, 
+count of non-zero values, and the head pointer of the linked list of tuple nodes
